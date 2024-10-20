@@ -4,7 +4,6 @@ use VSZ\MNB\MNBClient;
 use VSZ\MNB\MNBParser;
 use VSZ\MNB\MNBService;
 use VSZ\MNB\MNBValidator;
-use VSZ\MNB\MNBCalculator;
 use PHPUnit\Framework\TestCase;
 
 class MNBClientTest extends TestCase
@@ -17,7 +16,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $result = $mnbClient->getExchangeRate('TEST');
@@ -36,7 +34,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('XYZ');
@@ -52,7 +49,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('');
@@ -68,7 +64,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -84,7 +79,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -100,7 +94,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -116,7 +109,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -132,7 +124,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -148,7 +139,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -164,7 +154,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -180,7 +169,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -196,7 +184,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -212,7 +199,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
@@ -228,7 +214,6 @@ class MNBClientTest extends TestCase
             new MNBService($soapClientMock),
             new MNBParser(),
             new MNBValidator(),
-            new MNBCalculator(),
         );
 
         $mnbClient->getExchangeRate('TEST');
