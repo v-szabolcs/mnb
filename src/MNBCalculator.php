@@ -8,7 +8,7 @@ class MNBCalculator
     {
         try {
             $result = $value / $unit;
-        } catch (\Exception | \DivisionByZeroError) {
+        } catch (\DivisionByZeroError) {
             throw new \Exception('Unable to calculate exchange rate!');
         }
 
